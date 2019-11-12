@@ -1,9 +1,20 @@
-.navbar {
-  padding 1rem;
-  background-color: blue;
+.btn-primary:hover {
+  background-color: orange;
+  color: white;
 }
 
-.btn-primary:hover {
-  background-color: blue;
-  color: white;
+.hero-background-img {
+  background-image: url("https://cdn.britannica.com/24/174524-050-A851D3F2/Oranges.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top:200px;
+  padding-bottom:200px;
+}
+
+.hero-background-img {
+  position: relative;
+  /*background: rgba(0, 0, 0, 0.3);  If our image is bright, we can tone it down with this darker overlay */
+  padding-top:200px;  
+  padding-bottom:200px;
 }
